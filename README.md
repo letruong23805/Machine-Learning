@@ -211,5 +211,3 @@ Mở một cửa sổ Terminal mới và chạy ngrok:
 ```bash
 ngrok http 8000
 ```
-
-Sử dụng đường dẫn ngrok được cấp (dạng `https://xxxx.ngrok-free.app/predict`) để test gửi POST Request từ bên ngoài.
