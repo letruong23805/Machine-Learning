@@ -1,8 +1,6 @@
 # Hướng Dẫn Chi Tiết Triển Khai Ứng Dụng Phân Loại Email Spam (SVM + FastAPI + Docker + ngrok)
 
-Dự án này hướng dẫn xây dựng và triển khai ứng dụng Học máy (Machine Learning) phân loại Email Spam dựa trên thuật toán **Support Vector Machine (SVM)** (Nội dung Buổi 07), phục vụ qua REST API (**FastAPI**), đóng gói bằng **Docker Desktop** và chia sẻ ra Internet bằng **ngrok**.
-
----
+## Dự án này hướng dẫn xây dựng và triển khai ứng dụng Học máy (Machine Learning) phân loại Email Spam dựa trên thuật toán **Support Vector Machine (SVM)** (Nội dung Buổi 07), phục vụ qua REST API (**FastAPI**), đóng gói bằng **Docker Desktop** và chia sẻ ra Internet bằng **ngrok**.
 
 ## 1. Cấu Trúc Dự Án (`spam_svm_app`)
 
@@ -96,7 +94,7 @@ if __name__ == "__main__":
 
 ### 2.3. File `app.py` (FastAPI REST Service)
 
-Đọc mô hình đã lưu và phục vụ API dự đoán email:
+Đọc toàn bộ mô hình đã lưu và phục vụ API dự đoán email:
 
 ```python
 import joblib
